@@ -26,7 +26,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Беркут',
     scientificName: 'Aquila chrysaetos',
     description: 'Один из самых крупных и сильных дневных хищников. Издает громкий клекот и звонкие свистящие позывки во время парения над просторами.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Aquila_chrysaetos_Flickr.jpg/800px-Aquila_chrysaetos_Flickr.jpg',
+    image: '/images/golden-eagle.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Aquila_chrysaetos_XC483733.mp3',
     category: 'Хищные'
   },
@@ -35,7 +35,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Орел',
     scientificName: 'Haliaeetus leucocephalus',
     description: 'Величественная хищная птица с мощным изогнутым клювом и острым зрением. Голос — серия резких, высоких криков и металлических трелей.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/About_to_Launch_%28260797665%29.jpeg/800px-About_to_Launch_%28260797665%29.jpeg',
+    image: '/images/eagle.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Haliaeetus_leucocephalus_-_Bald_Eagle_XC567704.mp3',
     category: 'Хищные'
   },
@@ -62,7 +62,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Самка фазана',
     scientificName: 'Phasianus colchicus (female)',
     description: 'Обладает покровительственной песочно-бурой окраской с темными крапинами для маскировки в траве. Издает негромкие осторожные сигналы связи.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Phasianus_colchicus_female_01.jpg/800px-Phasianus_colchicus_female_01.jpg',
+    image: '/images/pheasant-female.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Phasianus_colchicus_-_Common_Pheasant_XC717758.mp3',
     category: 'Курообразные'
   },
