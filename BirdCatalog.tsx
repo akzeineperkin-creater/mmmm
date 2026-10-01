@@ -17,7 +17,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Зяблик',
     scientificName: 'Fringilla coelebs',
     description: 'Небольшая певчая птица с ярким оперением. Песня зяблика представляет собой звонкую раскатистую трель с характерным «росчерком» на конце.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Fringilla_coelebs_%2818967923414%29.jpg/800px-Fringilla_coelebs_%2818967923414%29.jpg',
+    image: '/images/chaffinch.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Fringilla_coelebs_-_Common_Chaffinch_XC632662.mp3',
     category: 'Певчие'
   },
@@ -44,7 +44,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Фазан',
     scientificName: 'Phasianus colchicus',
     description: 'Самец обыкновенного фазана отличается эффектным блестящим оперением и длинным хвостом. Издает резкий гортанный двухсложный брачный крик.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Phasianus_colchicus_2_tom_%28Lukasz_Lukasik%29.jpg/800px-Phasianus_colchicus_2_tom_%28Lukasz_Lukasik%29.jpg',
+    image: '/images/pheasant-male.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Phasianus_colchicus_-_Common_Pheasant_XC717758.mp3',
     category: 'Курообразные'
   },
@@ -53,7 +53,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Золотой фазан',
     scientificName: 'Chrysolophus pictus',
     description: 'Невероятно красивая птица с золотисто-желтым хохлом и ярко-красным брюшком. Издает свистящие звуки и резкие металлические сигналы тревоги.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Golden_pheasant_male_%28Chrysolophus_pictus%29.jpg/800px-Golden_pheasant_male_%28Chrysolophus_pictus%29.jpg',
+    image: '/images/golden-pheasant.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Chrysolophus_pictus_call.mp3',
     category: 'Экзотические'
   },
@@ -71,7 +71,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Зеленушка',
     scientificName: 'Chloris chloris',
     description: 'Плотная птица с оливково-зеленым оперением. Песня состоит из звонких журчащих трелей, чередующихся с характерным хриплым «вжжжж».',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/European_greenfinch_%28Chloris_chloris%29_male.jpg/800px-European_greenfinch_%28Chloris_chloris%29_male.jpg',
+    image: '/images/greenfinch.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Chloris_chloris_song.mp3',
     category: 'Певчие'
   },
@@ -80,7 +80,7 @@ const BIRDS_DATA: Bird[] = [
     name: 'Сорока',
     scientificName: 'Pica pica',
     description: 'Высокоинтеллектуальная птица с контрастным черно-белым оперением с сине-зеленым отливом. Характерный голос — быстрое стрекотание.',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Pica_pica_-_Monfrag%C3%BCe_01.jpg/800px-Pica_pica_-_Monfrag%C3%BCe_01.jpg',
+    image: '/images/magpie.jpg',
     audio: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Pica_pica_call.mp3',
     category: 'Врановые'
   }
