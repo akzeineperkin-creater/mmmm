@@ -27,7 +27,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Aquila chrysaetos',
     description: 'Один из самых крупных и сильных дневных хищников. Издает громкий клекот и звонкие свистящие позывки во время парения над просторами.',
     image: '/images/golden-eagle.jpg',
-    audio: '/audio/eagle.mp3',
+    audio: '/audio/golden-eagle.mp3',
     category: 'Хищные'
   },
   {
@@ -45,7 +45,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Phasianus colchicus',
     description: 'Самец обыкновенного фазана отличается эффектным блестящим оперением и длинным хвостом. Издает резкий гортанный двухсложный брачный крик.',
     image: '/images/pheasant-male.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Phasianus_colchicus_-_Common_Pheasant_XC717758.mp3',
+    audio: '/audio/pheasant-male.mp3',
     category: 'Курообразные'
   },
   {
@@ -63,7 +63,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Phasianus colchicus (female)',
     description: 'Обладает покровительственной песочно-бурой окраской с темными крапинами для маскировки в траве. Издает негромкие осторожные сигналы связи.',
     image: '/images/pheasant-female.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Phasianus_colchicus_-_Common_Pheasant_XC717758.mp3',
+    audio: '/audio/pheasant-female.mp3',
     category: 'Курообразные'
   },
   {
@@ -72,7 +72,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Chloris chloris',
     description: 'Плотная птица с оливково-зеленым оперением. Песня состоит из звонких журчащих трелей, чередующихся с характерным хриплым «вжжжж».',
     image: '/images/greenfinch.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/7/70/Chloris_chloris_song.mp3',
+    audio: '/audio/greenfinch.mp3',
     category: 'Певчие'
   },
   {
