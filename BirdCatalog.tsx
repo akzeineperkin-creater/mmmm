@@ -18,7 +18,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Fringilla coelebs',
     description: 'Небольшая певчая птица с ярким оперением. Песня зяблика представляет собой звонкую раскатистую трель с характерным «росчерком» на конце.',
     image: '/images/chaffinch.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/e/ec/Fringilla_coelebs_-_Common_Chaffinch_XC632662.mp3',
+    audio: '/audio/chaffinch.mp3',
     category: 'Певчие'
   },
   {
@@ -27,7 +27,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Aquila chrysaetos',
     description: 'Один из самых крупных и сильных дневных хищников. Издает громкий клекот и звонкие свистящие позывки во время парения над просторами.',
     image: '/images/golden-eagle.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Aquila_chrysaetos_XC483733.mp3',
+    audio: '/audio/eagle.mp3',
     category: 'Хищные'
   },
   {
@@ -36,7 +36,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Haliaeetus leucocephalus',
     description: 'Величественная хищная птица с мощным изогнутым клювом и острым зрением. Голос — серия резких, высоких криков и металлических трелей.',
     image: '/images/eagle.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/d/de/Haliaeetus_leucocephalus_-_Bald_Eagle_XC567704.mp3',
+    audio: '/audio/eagle.mp3',
     category: 'Хищные'
   },
   {
@@ -54,7 +54,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Chrysolophus pictus',
     description: 'Невероятно красивая птица с золотисто-желтым хохлом и ярко-красным брюшком. Издает свистящие звуки и резкие металлические сигналы тревоги.',
     image: '/images/golden-pheasant.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/6/61/Chrysolophus_pictus_call.mp3',
+    audio: '/audio/golden-pheasant.mp3',
     category: 'Экзотические'
   },
   {
@@ -81,7 +81,7 @@ const BIRDS_DATA: Bird[] = [
     scientificName: 'Pica pica',
     description: 'Высокоинтеллектуальная птица с контрастным черно-белым оперением с сине-зеленым отливом. Характерный голос — быстрое стрекотание.',
     image: '/images/magpie.jpg',
-    audio: 'https://upload.wikimedia.org/wikipedia/commons/d/df/Pica_pica_call.mp3',
+    audio: '/audio/magpie.mp3',
     category: 'Врановые'
   }
 ];
@@ -282,7 +282,7 @@ export default function BirdCatalog() {
         </div>
 
         <footer className="pt-6 border-t border-slate-200 flex flex-col sm:flex-row items-center justify-between text-slate-500 text-sm gap-4">
-          <p>© Каталог голосов птиц. Источники: Wikimedia Commons & Xeno-Canto.</p>
+          <p>© Каталог голосов птиц. Все аудиозаписи и изображения интегрированы локально.</p>
 
           <div className="flex items-center gap-3">
             <button
